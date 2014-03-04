@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="TgC-7p-eyh">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="7cj-FC-xNM">
+            <objects>
+                <viewController id="TgC-7p-eyh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lKA-hz-iNn"/>
+                        <viewControllerLayoutGuide type="bottom" id="auC-vg-b9G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="whp-uP-b23">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9wd-L7-gY5">
+                                <rect key="frame" x="71" y="269" width="179" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Load Photo Gallery Modal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" id="1wd-w7-VPl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="9wd-L7-gY5" secondAttribute="centerY" id="Ocu-4f-aCf"/>
+                            <constraint firstAttribute="centerX" secondItem="9wd-L7-gY5" secondAttribute="centerX" id="kgP-3h-zzU"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xbu-vr-ujM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-117" y="11"/>
+        </scene>
+        <!--Photo View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController storyboardIdentifier="UXRPhotoViewController" id="vXZ-lx-hvc" customClass="UXRPhotoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cpx-Pl-QN9"/>
+                        <viewControllerLayoutGuide type="bottom" id="qBg-nj-2Pk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bbG-SH-eN1">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5P1-UZ-xaL">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="ftj-Ih-eeA"/>
+                                </connections>
+                            </scrollView>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QTU-cG-1Zd">
+                                <rect key="frame" x="10" y="253" width="28" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" image="arrow_left.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="leftPageArrowTouch:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="EEC-wj-8MP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8D-Y9-3Ru">
+                                <rect key="frame" x="285" y="253" width="28" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" image="arrow_right.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="rightPageArrowTouch:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="FgL-fw-MXU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIj-KC-dP7">
+                                <rect key="frame" x="10" y="10" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Done">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doneButtonAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="eOt-P7-zPC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IIj-KC-dP7" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="10" id="6jf-mp-agN"/>
+                            <constraint firstItem="qBg-nj-2Pk" firstAttribute="top" secondItem="bbG-SH-eN1" secondAttribute="bottom" id="7io-2B-Hc1"/>
+                            <constraint firstItem="bbG-SH-eN1" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="A4d-tz-L9W"/>
+                            <constraint firstItem="bbG-SH-eN1" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="ECk-Pd-nSG"/>
+                            <constraint firstItem="IIj-KC-dP7" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="10" id="WQ1-9V-nn8"/>
+                            <constraint firstAttribute="centerY" secondItem="QTU-cG-1Zd" secondAttribute="centerY" id="WWC-Cd-WlP"/>
+                            <constraint firstItem="QTU-cG-1Zd" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="10" id="bqe-Pj-CWJ"/>
+                            <constraint firstAttribute="trailing" secondItem="f8D-Y9-3Ru" secondAttribute="trailing" constant="7" id="gK7-mI-08L"/>
+                            <constraint firstAttribute="centerY" secondItem="f8D-Y9-3Ru" secondAttribute="centerY" id="iwZ-mC-KuD"/>
+                            <constraint firstAttribute="trailing" secondItem="bbG-SH-eN1" secondAttribute="trailing" id="vxh-Fp-In7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="doneButton" destination="IIj-KC-dP7" id="5gN-T3-bXd"/>
+                        <outlet property="leftButton" destination="QTU-cG-1Zd" id="hPq-uh-J83"/>
+                        <outlet property="rightButton" destination="f8D-Y9-3Ru" id="YHv-7d-ggc"/>
+                        <outlet property="scrollView" destination="bbG-SH-eN1" id="8kJ-Qz-buG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="290" y="11"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow_left.png" width="28" height="62"/>
+        <image name="arrow_right.png" width="28" height="62"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
