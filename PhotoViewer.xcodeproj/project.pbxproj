@@ -40,8 +40,26 @@
 		51B35C47186A7EC900B25188 /* UIView+ImageCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B35C45186A7EC900B25188 /* UIView+ImageCapture.m */; };
 		51B35C49186A81FE00B25188 /* loading.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51B35C48186A81FE00B25188 /* loading.jpg */; };
 		51B35C4A186A81FE00B25188 /* loading.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51B35C48186A81FE00B25188 /* loading.jpg */; };
-		8A0E5F9F090A4C6A96FD7BBA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DA2066CC6524CF78052E22E /* libPods.a */; };
-		9EF87C2F6E77486C90D7D8C9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DA2066CC6524CF78052E22E /* libPods.a */; };
+		51B8D82218C6DA260014B1C6 /* NSAlert+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B8D80D18C6DA260014B1C6 /* NSAlert+MKNetworkKitAdditions.m */; };
+		51B8D82318C6DA260014B1C6 /* NSAlert+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B8D80D18C6DA260014B1C6 /* NSAlert+MKNetworkKitAdditions.m */; };
+		51B8D82418C6DA260014B1C6 /* NSData+MKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B8D80F18C6DA260014B1C6 /* NSData+MKBase64.m */; };
+		51B8D82518C6DA260014B1C6 /* NSData+MKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B8D80F18C6DA260014B1C6 /* NSData+MKBase64.m */; };
+		51B8D82618C6DA260014B1C6 /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B8D81118C6DA260014B1C6 /* NSDate+RFC1123.m */; };
+		51B8D82718C6DA260014B1C6 /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B8D81118C6DA260014B1C6 /* NSDate+RFC1123.m */; };
+		51B8D82818C6DA260014B1C6 /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B8D81318C6DA260014B1C6 /* NSDictionary+RequestEncoding.m */; };
+		51B8D82918C6DA260014B1C6 /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B8D81318C6DA260014B1C6 /* NSDictionary+RequestEncoding.m */; };
+		51B8D82A18C6DA260014B1C6 /* NSString+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B8D81518C6DA260014B1C6 /* NSString+MKNetworkKitAdditions.m */; };
+		51B8D82B18C6DA260014B1C6 /* NSString+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B8D81518C6DA260014B1C6 /* NSString+MKNetworkKitAdditions.m */; };
+		51B8D82C18C6DA260014B1C6 /* UIAlertView+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B8D81718C6DA260014B1C6 /* UIAlertView+MKNetworkKitAdditions.m */; };
+		51B8D82D18C6DA260014B1C6 /* UIAlertView+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B8D81718C6DA260014B1C6 /* UIAlertView+MKNetworkKitAdditions.m */; };
+		51B8D82E18C6DA260014B1C6 /* UIImageView+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B8D81918C6DA260014B1C6 /* UIImageView+MKNetworkKitAdditions.m */; };
+		51B8D82F18C6DA260014B1C6 /* UIImageView+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B8D81918C6DA260014B1C6 /* UIImageView+MKNetworkKitAdditions.m */; };
+		51B8D83018C6DA260014B1C6 /* MKNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B8D81B18C6DA260014B1C6 /* MKNetworkEngine.m */; };
+		51B8D83118C6DA260014B1C6 /* MKNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B8D81B18C6DA260014B1C6 /* MKNetworkEngine.m */; };
+		51B8D83218C6DA260014B1C6 /* MKNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B8D81E18C6DA260014B1C6 /* MKNetworkOperation.m */; };
+		51B8D83318C6DA260014B1C6 /* MKNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B8D81E18C6DA260014B1C6 /* MKNetworkOperation.m */; };
+		51B8D83418C6DA260014B1C6 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B8D82118C6DA260014B1C6 /* Reachability.m */; };
+		51B8D83518C6DA260014B1C6 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B8D82118C6DA260014B1C6 /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +73,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2F372C94D3544EEF988B4278 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		4DA2066CC6524CF78052E22E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5199F002186A7C8400A42182 /* PhotoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5199F005186A7C8400A42182 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5199F007186A7C8400A42182 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -91,6 +107,27 @@
 		51B35C44186A7EC900B25188 /* UIView+ImageCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ImageCapture.h"; sourceTree = "<group>"; };
 		51B35C45186A7EC900B25188 /* UIView+ImageCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ImageCapture.m"; sourceTree = "<group>"; };
 		51B35C48186A81FE00B25188 /* loading.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loading.jpg; sourceTree = "<group>"; };
+		51B8D80C18C6DA260014B1C6 /* NSAlert+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAlert+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		51B8D80D18C6DA260014B1C6 /* NSAlert+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAlert+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		51B8D80E18C6DA260014B1C6 /* NSData+MKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MKBase64.h"; sourceTree = "<group>"; };
+		51B8D80F18C6DA260014B1C6 /* NSData+MKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MKBase64.m"; sourceTree = "<group>"; };
+		51B8D81018C6DA260014B1C6 /* NSDate+RFC1123.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RFC1123.h"; sourceTree = "<group>"; };
+		51B8D81118C6DA260014B1C6 /* NSDate+RFC1123.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RFC1123.m"; sourceTree = "<group>"; };
+		51B8D81218C6DA260014B1C6 /* NSDictionary+RequestEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RequestEncoding.h"; sourceTree = "<group>"; };
+		51B8D81318C6DA260014B1C6 /* NSDictionary+RequestEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RequestEncoding.m"; sourceTree = "<group>"; };
+		51B8D81418C6DA260014B1C6 /* NSString+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		51B8D81518C6DA260014B1C6 /* NSString+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		51B8D81618C6DA260014B1C6 /* UIAlertView+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		51B8D81718C6DA260014B1C6 /* UIAlertView+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		51B8D81818C6DA260014B1C6 /* UIImageView+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		51B8D81918C6DA260014B1C6 /* UIImageView+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		51B8D81A18C6DA260014B1C6 /* MKNetworkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkEngine.h; sourceTree = "<group>"; };
+		51B8D81B18C6DA260014B1C6 /* MKNetworkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNetworkEngine.m; sourceTree = "<group>"; };
+		51B8D81C18C6DA260014B1C6 /* MKNetworkKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkKit.h; sourceTree = "<group>"; };
+		51B8D81D18C6DA260014B1C6 /* MKNetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkOperation.h; sourceTree = "<group>"; };
+		51B8D81E18C6DA260014B1C6 /* MKNetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNetworkOperation.m; sourceTree = "<group>"; };
+		51B8D82018C6DA260014B1C6 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		51B8D82118C6DA260014B1C6 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +138,6 @@
 				5199F008186A7C8400A42182 /* CoreGraphics.framework in Frameworks */,
 				5199F00A186A7C8400A42182 /* UIKit.framework in Frameworks */,
 				5199F006186A7C8400A42182 /* Foundation.framework in Frameworks */,
-				9EF87C2F6E77486C90D7D8C9 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +148,6 @@
 				5199F025186A7C8400A42182 /* XCTest.framework in Frameworks */,
 				5199F027186A7C8400A42182 /* UIKit.framework in Frameworks */,
 				5199F026186A7C8400A42182 /* Foundation.framework in Frameworks */,
-				8A0E5F9F090A4C6A96FD7BBA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +161,6 @@
 				5199F02A186A7C8400A42182 /* PhotoViewerTests */,
 				5199F004186A7C8400A42182 /* Frameworks */,
 				5199F003186A7C8400A42182 /* Products */,
-				2F372C94D3544EEF988B4278 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,11 +176,11 @@
 		5199F004186A7C8400A42182 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				51B8D80A18C6DA260014B1C6 /* MKNetworkKit */,
 				5199F005186A7C8400A42182 /* Foundation.framework */,
 				5199F007186A7C8400A42182 /* CoreGraphics.framework */,
 				5199F009186A7C8400A42182 /* UIKit.framework */,
 				5199F024186A7C8400A42182 /* XCTest.framework */,
-				4DA2066CC6524CF78052E22E /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -217,6 +251,50 @@
 			name = Categories;
 			sourceTree = "<group>";
 		};
+		51B8D80A18C6DA260014B1C6 /* MKNetworkKit */ = {
+			isa = PBXGroup;
+			children = (
+				51B8D80B18C6DA260014B1C6 /* Categories */,
+				51B8D81A18C6DA260014B1C6 /* MKNetworkEngine.h */,
+				51B8D81B18C6DA260014B1C6 /* MKNetworkEngine.m */,
+				51B8D81C18C6DA260014B1C6 /* MKNetworkKit.h */,
+				51B8D81D18C6DA260014B1C6 /* MKNetworkOperation.h */,
+				51B8D81E18C6DA260014B1C6 /* MKNetworkOperation.m */,
+				51B8D81F18C6DA260014B1C6 /* Reachability */,
+			);
+			path = MKNetworkKit;
+			sourceTree = "<group>";
+		};
+		51B8D80B18C6DA260014B1C6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				51B8D80C18C6DA260014B1C6 /* NSAlert+MKNetworkKitAdditions.h */,
+				51B8D80D18C6DA260014B1C6 /* NSAlert+MKNetworkKitAdditions.m */,
+				51B8D80E18C6DA260014B1C6 /* NSData+MKBase64.h */,
+				51B8D80F18C6DA260014B1C6 /* NSData+MKBase64.m */,
+				51B8D81018C6DA260014B1C6 /* NSDate+RFC1123.h */,
+				51B8D81118C6DA260014B1C6 /* NSDate+RFC1123.m */,
+				51B8D81218C6DA260014B1C6 /* NSDictionary+RequestEncoding.h */,
+				51B8D81318C6DA260014B1C6 /* NSDictionary+RequestEncoding.m */,
+				51B8D81418C6DA260014B1C6 /* NSString+MKNetworkKitAdditions.h */,
+				51B8D81518C6DA260014B1C6 /* NSString+MKNetworkKitAdditions.m */,
+				51B8D81618C6DA260014B1C6 /* UIAlertView+MKNetworkKitAdditions.h */,
+				51B8D81718C6DA260014B1C6 /* UIAlertView+MKNetworkKitAdditions.m */,
+				51B8D81818C6DA260014B1C6 /* UIImageView+MKNetworkKitAdditions.h */,
+				51B8D81918C6DA260014B1C6 /* UIImageView+MKNetworkKitAdditions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		51B8D81F18C6DA260014B1C6 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				51B8D82018C6DA260014B1C6 /* Reachability.h */,
+				51B8D82118C6DA260014B1C6 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -224,11 +302,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5199F034186A7C8400A42182 /* Build configuration list for PBXNativeTarget "PhotoViewer" */;
 			buildPhases = (
-				5D74C6A3C2454D3AAF6158CB /* Check Pods Manifest.lock */,
 				5199EFFE186A7C8400A42182 /* Sources */,
 				5199EFFF186A7C8400A42182 /* Frameworks */,
 				5199F000186A7C8400A42182 /* Resources */,
-				35511DBF53434133A880D95F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -336,36 +412,6 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		35511DBF53434133A880D95F /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5D74C6A3C2454D3AAF6158CB /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		A7CBBF7C49844D37B501B0FD /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,15 +434,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51B8D83218C6DA260014B1C6 /* MKNetworkOperation.m in Sources */,
 				51B35C42186A7E9100B25188 /* UIView+SimpleSizing.m in Sources */,
 				5199F016186A7C8400A42182 /* UXRAppDelegate.m in Sources */,
+				51B8D82A18C6DA260014B1C6 /* NSString+MKNetworkKitAdditions.m in Sources */,
 				5199F012186A7C8400A42182 /* main.m in Sources */,
+				51B8D82418C6DA260014B1C6 /* NSData+MKBase64.m in Sources */,
 				5199F04E186A7DA100A42182 /* UIImage+Color.m in Sources */,
 				5199F04C186A7DA100A42182 /* UIColor+SimpleColoring.m in Sources */,
+				51B8D82818C6DA260014B1C6 /* NSDictionary+RequestEncoding.m in Sources */,
+				51B8D82C18C6DA260014B1C6 /* UIAlertView+MKNetworkKitAdditions.m in Sources */,
+				51B8D83418C6DA260014B1C6 /* Reachability.m in Sources */,
+				51B8D82218C6DA260014B1C6 /* NSAlert+MKNetworkKitAdditions.m in Sources */,
+				51B8D83018C6DA260014B1C6 /* MKNetworkEngine.m in Sources */,
 				51B35C46186A7EC900B25188 /* UIView+ImageCapture.m in Sources */,
 				5199F052186A7DBA00A42182 /* UXRBaseNetworkingEngine.m in Sources */,
 				5199F046186A7D2D00A42182 /* UIViewController+SlideTransitions.m in Sources */,
 				5199F042186A7CB700A42182 /* UXRPhotoViewController.m in Sources */,
+				51B8D82E18C6DA260014B1C6 /* UIImageView+MKNetworkKitAdditions.m in Sources */,
+				51B8D82618C6DA260014B1C6 /* NSDate+RFC1123.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,14 +460,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51B8D82318C6DA260014B1C6 /* NSAlert+MKNetworkKitAdditions.m in Sources */,
 				5199F053186A7DBA00A42182 /* UXRBaseNetworkingEngine.m in Sources */,
 				5199F031186A7C8400A42182 /* PhotoViewerTests.m in Sources */,
 				5199F043186A7CB700A42182 /* UXRPhotoViewController.m in Sources */,
+				51B8D83118C6DA260014B1C6 /* MKNetworkEngine.m in Sources */,
 				51B35C47186A7EC900B25188 /* UIView+ImageCapture.m in Sources */,
+				51B8D83318C6DA260014B1C6 /* MKNetworkOperation.m in Sources */,
 				5199F04F186A7DA100A42182 /* UIImage+Color.m in Sources */,
+				51B8D82718C6DA260014B1C6 /* NSDate+RFC1123.m in Sources */,
+				51B8D82918C6DA260014B1C6 /* NSDictionary+RequestEncoding.m in Sources */,
 				51B35C43186A7E9100B25188 /* UIView+SimpleSizing.m in Sources */,
+				51B8D82518C6DA260014B1C6 /* NSData+MKBase64.m in Sources */,
 				5199F04D186A7DA100A42182 /* UIColor+SimpleColoring.m in Sources */,
+				51B8D82F18C6DA260014B1C6 /* UIImageView+MKNetworkKitAdditions.m in Sources */,
 				5199F047186A7D2D00A42182 /* UIViewController+SlideTransitions.m in Sources */,
+				51B8D82B18C6DA260014B1C6 /* NSString+MKNetworkKitAdditions.m in Sources */,
+				51B8D83518C6DA260014B1C6 /* Reachability.m in Sources */,
+				51B8D82D18C6DA260014B1C6 /* UIAlertView+MKNetworkKitAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,7 +593,6 @@
 		};
 		5199F035186A7C8400A42182 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F372C94D3544EEF988B4278 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -541,7 +606,6 @@
 		};
 		5199F036186A7C8400A42182 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F372C94D3544EEF988B4278 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -555,7 +619,6 @@
 		};
 		5199F038186A7C8400A42182 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F372C94D3544EEF988B4278 /* Pods.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoViewer.app/PhotoViewer";
@@ -579,7 +642,6 @@
 		};
 		5199F039186A7C8400A42182 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F372C94D3544EEF988B4278 /* Pods.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoViewer.app/PhotoViewer";

@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>E122D1AB-8D99-4A4A-8488-4A9C005F108D</string>
+	<string>CD602BE0-1CD1-47F8-B9C1-A2A0F4B5B702</string>
 	<key>IDESourceControlProjectName</key>
 	<string>PhotoViewer</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>AC8EE107-09E3-40BE-AB6B-BFFE524AE48C</key>
-		<string>ssh://github.com/rexstjohn/Scanplay.git</string>
+		<key>55CA5A6C-27A1-443C-80DC-5EF7CC1685B3</key>
+		<string>https://github.com/rexstjohn/FacebookPhotoGalleryiOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iOS/PhotoViewer/PhotoViewer.xcworkspace</string>
+	<string>PhotoViewer.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>AC8EE107-09E3-40BE-AB6B-BFFE524AE48C</key>
-		<string>../../..</string>
+		<key>55CA5A6C-27A1-443C-80DC-5EF7CC1685B3</key>
+		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/rexstjohn/Scanplay.git</string>
+	<string>https://github.com/rexstjohn/FacebookPhotoGalleryiOS.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>AC8EE107-09E3-40BE-AB6B-BFFE524AE48C</string>
+	<string>55CA5A6C-27A1-443C-80DC-5EF7CC1685B3</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>AC8EE107-09E3-40BE-AB6B-BFFE524AE48C</string>
+			<string>55CA5A6C-27A1-443C-80DC-5EF7CC1685B3</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Scanplay</string>
+			<string>FacebookPhotoGalleryiOS</string>
 		</dict>
 	</array>
 </dict>
