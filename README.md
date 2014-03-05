@@ -9,5 +9,4 @@ Uses a scroll view with an image. Should work on both iPhone and iPad.
 
 SETUP AND INSTALL
 
-Requires Cocoapods. 
-Make sure you have Cocoapods and run “pod install.”  When you run it, things should work properly.
+Should just work after you grab it and open the workspace. Requires MKNetworkKet (included). 
